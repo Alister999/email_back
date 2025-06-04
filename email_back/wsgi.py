@@ -1,6 +1,7 @@
+"""Standart WSGI module"""
 import os
-from django.core.wsgi import get_wsgi_application
 import logging
+from django.core.wsgi import get_wsgi_application
 
 logger = logging.getLogger(__name__)
 
