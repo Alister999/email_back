@@ -10,10 +10,10 @@
 <h2>What are you doing?</h2>
 
 <!--<button type="Submit">Error button</button>-->
-<form method="POST" action="{% url 'some_view' %}">
+<form method="POST" action="{% url 'error' %}">
     {% csrf_token %}
     <!-- поля формы -->
-    <button type="submit">Отправить</button>
+    <button type="submit">Error button</button>
 </form>
 </body>
 </html>
